@@ -1,6 +1,6 @@
 <?php
 
-namespace Luqta\Middleware;
+namespace Luqta\Localization\Middleware;
 
 use Closure;
 
