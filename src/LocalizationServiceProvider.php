@@ -8,10 +8,10 @@ class LocalizationServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-         $this->loadTranslationsFrom(__DIR__.'/../Resources/lang', 'luqta');
+         $this->loadTranslationsFrom(__DIR__.'/Resources/lang', 'luqta');
 
         $this->publishes([
-            __DIR__.'/../Resources/lang' => resource_path('lang/vendor/luqta'),
+            __DIR__.'/Resources/lang' => resource_path('lang/vendor/luqta'),
         ]);
     }
 
