@@ -1,19 +1,17 @@
 <?php
-$singular_name = 'item';
-$plural_name = 'items';
 
 return [
     'success' => [
-        'create' => $singular_name . ' successfully created',
-        'update' => $singular_name . ' successfully updated ',
-        'delete' => '{1} ' . $singular_name . ' successfully deleted|[2,*] ' . $plural_name . ' successfully deleted',
-        'restore' => '{1} ' . $singular_name . ' successfully restored | [2,*] ' . $plural_name . ' successfully restored'
+        'create' => 'Creating was done successfully',
+        'update' => 'Updating was done successfully',
+        'delete' => 'Deleting was done successfully',
+        'restore' => 'Restoring was done successfully'
     ],
     'fail' => [
-        'show'   => $singular_name . 'not found',
-        'create' => 'An error occurred during ' . $singular_name . ' creation',
-        'update' => 'An error occurred updating the ' . $singular_name,
-        'delete' => 'An error occurred during deletion',
+        'show'   => 'Resource Not Found',
+        'create' => 'An error occurred during creating',
+        'update' => 'An error occurred updating',
+        'delete' => 'An error occurred during deleting',
         'restore' => 'An error occurred during restoring'
     ]
 ];
